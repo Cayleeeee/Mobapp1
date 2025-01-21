@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+<TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enroll for Courses"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <CheckBox
+        android:id="@+id/chk_science"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Science" />
+
+    <CheckBox
+        android:id="@+id/chk_math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math" />
+
+    <CheckBox
+        android:id="@+id/chk_filipino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filipino" />
+
+    <CheckBox
+        android:id="@+id/chk_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English" />
+
+    <CheckBox
+        android:id="@+id/chk_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History" />
+
+    <EditText
+        android:id="@+id/inp_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Payment Amount"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btn_enroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enroll"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/out_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:textSize="16sp" />
+</LinearLayout>
